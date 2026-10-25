@@ -1,0 +1,40 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Datasets and annotations
+datasets/
+
+# Trained models and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Training outputs and experiment artifacts
+runs/
+outputs/
+wandb/
+mlruns/
+
+# Cache files
+*.cache
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+path: C:/Users/Shriya/Downloads/industrial-defect-yolo/datasets/machine-defects-4class
+train: train/images
+val: valid/images
+test: test/images
+nc: 4
+names:
+  0: acceptable_weld
+  1: bad_weld
+  2: corrosion
+  3: crack
